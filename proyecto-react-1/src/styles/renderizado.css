@@ -1,0 +1,17 @@
+.contenedor{
+    margin-top: 100px;
+}
+
+.contenedor button{
+    width:150px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contenedor-cards{
+   min-height: 58.4vh;
+}

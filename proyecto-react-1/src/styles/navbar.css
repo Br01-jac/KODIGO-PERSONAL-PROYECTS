@@ -1,0 +1,35 @@
+.select-filtros {
+    width: 70%;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-categorias {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categorias div {
+    margin: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.categorias div:hover {
+    background-color: white;
+    color: black;
+}
